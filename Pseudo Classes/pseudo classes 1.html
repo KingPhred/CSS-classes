@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/pseudo classes 1.css" type="text/css">
+    <title>CSS - Pseudo Classes: Part 1</title>
+</head>
+<body>
+    <h1>Register</h1>
+    <form id="register-form" method="get">
+        <div>
+            <input class="input-item" type="text" name="fullname" placeholder="Full Name" required>
+        </div>
+        <div>
+            <input class="input-item" type="email" name="email" placeholder="Email" value="abcd@gmail.com" disabled>
+        </div>
+        <div>
+            <input class="input-item" type="number" name="age" placeholder="Age" min="18" max="50">
+        </div>
+        <div>
+            <input class="input-item" type="password" name="password" placeholder="password" required maxlength="10">
+        </div>
+        <div>
+            <input class="input-item" type="password" name="password" placeholder="Confirm Password" required maxlength="10">
+        </div>
+        <div>
+            <input id="checkbox" type="checkbox" />
+            <label id="terms-check" for="checkbox"> I agree to accept Terms and Conditions</a>.</label>
+          </div>
+        <div>
+            <input id="btn-submit" type="button" value="Register">
+        </div>
+    </form>
+</body>
+</html>

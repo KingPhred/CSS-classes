@@ -1,0 +1,54 @@
+body{
+    margin: 0;
+}
+
+header{
+    width: 100%;
+    padding: 32px;
+    box-sizing: border-box;
+    height: 720px;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-image: url(https://cdn.pixabay.com/photo/2018/01/14/23/12/nature-3082832__480.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+nav{
+    text-align: center;
+}
+
+nav > span{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+}
+
+span{
+    padding: 10px;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+div{
+    position: absolute;
+    /* bottom: 50px;
+    left: 50px; */
+    right: 50%;
+    top: 50%;
+    transform: translate(-25%);
+}
+
+h1{
+    text-transform: capitalize;
+    font-family: 'Raleway', sans-serif;
+    font-size: 50px;
+    letter-spacing: 3px;
+    margin-bottom: 0;
+}
+
+p {
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    margin-top: 0;
+    overflow: hidden;  
+}
