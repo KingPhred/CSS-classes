@@ -70,3 +70,30 @@ main {
 p {
     font-size: 15px;
 }
+
+/* Descendant Selector */
+/* article p {
+    font-size: 18px;
+    background-color: lightyellow;
+} */
+
+/* Child Selector */
+/* article > p {
+    background-color: lightcoral;
+} */
+
+/* Adjacent Sibling selector */
+
+/* div + p {
+    background-color: lightblue;
+} */
+
+/* h3 + p {
+    background-color: lightblue;
+} */
+
+/* General Sibling Selector */
+
+div ~ p {
+    background-color: lightblue;
+}
