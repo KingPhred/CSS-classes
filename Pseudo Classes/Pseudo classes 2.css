@@ -1,38 +1,109 @@
-body{
+body {
     margin: 0;
-    background-color: #f2f6ff ;
 }
 
-#topbar{
-    width:100%;
+#topbar {
+    width: 100%;
     height: 62px;
-    padding: 12px 80px;
-    border-bottom: 1px solid #ccc;
-    background-color: white;
-    box-sizing: border-box;
-    position: fixed;
-    top: 0;
-    left: 0;
+    border-bottom: 1px solid #ccc ;
     box-shadow: 0px 2px 5px #aaa;
+    position: sticky;
+    background-color: white;
+    padding: 12px 80px;
+    box-sizing: border-box;
 }
 
-#logo{
-    color: #0086ff;
-    font-size: 32px;
-    letter-spacing: -3px;
-    font-weight: 900;
-    font-family: 'Raleway', sans-serif;
-    margin-right: 48px;
-}
-
-.menu-item{
-    margin: 0;
-    margin-right: 24px;
-    font-family: 'Raleway', sans-serif;
-    font-weight: 500;
-    cursor: pointer;
-    font-size: 13px;
+img{
+    width: 90px;
+    right: 50px;
     position: relative;
-    top: 10px;
-    float: right;
+}
+
+#logo {
+    text-transform: uppercase;
+    text-shadow: 2px 2px 2px rgb(58, 58, 114);
+    margin-right: 10%;
+    position: relative;
+    bottom: 10px;
+    right: 6%;
+    font-size: 32px;
+    letter-spacing: -4px;
+    font-weight: 900;
+    color: #0086ff;
+}
+
+.menu-item {
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    position: relative;
+    padding-right: 20px;
+    right: 20px;
+    bottom: 10px;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+
+main {
+    padding: 5% 15% ;
+}
+
+#article-wrapper {
+    border: 1px solid #ccc;
+    box-shadow:  0px 5px 6px #aaa;
+    padding: 3% 1%;
+}
+
+#second-article-wrapper {
+    margin-top: 3.3%;
+    border: 1px solid #ccc;
+    box-shadow:  0px 5px 6px #aaa;
+    padding: 3% 1%;
+}
+
+.heading {
+    text-align: center;
+    font-size: 32px;
+    font-weight: 900;
+}
+
+p {
+    font-size: 15px;
+}
+
+/* electing the first paragraph of each article */
+
+/* article > p:first-of-type{
+    background-color: lightcoral;
+} */
+
+/* Selecting the last paragraph of each article */
+
+/* article > p:last-of-type{
+    background-color: lightcoral;
+} */
+
+/* Selecting the second paragraph of each article */
+/* article > p:nth-last-of-type(2) {
+    background-color: lightcoral;
+} */
+
+/* Select all the paragraphs which are the first child inside the article */
+/* article > p:first-child {
+    background-color: lightcoral;
+} */
+
+/* Select all the paragraphs which are the last child inside the article */
+/* article > p:last-child {
+    background-color: lightcoral;
+} */
+
+/* Select all the paragraphs which are the second child inside the article
+ article > p:nth-child(2) {
+    background-color: lightcoral;
+} */
+
+/* Select all the paragraphs which are the second-last child inside the article */
+article > p:nth-last-child(2) {
+    background-color: lightcoral;
 }
