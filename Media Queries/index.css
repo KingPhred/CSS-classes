@@ -1,0 +1,143 @@
+body {
+    margin: 0;
+    background-color: #EEF1FF;
+    font-family: 'Raleway', sans-serif;
+}
+
+#topbar {
+    width: 100%;
+    height: 50px;
+    background-color: #FFFDE3;
+    border-bottom: 1px solid #D8D8D8;
+    box-shadow: 0 1px 2px #D8D8D8;
+    margin: 0 0 90px 0;
+}
+
+#navbar {
+    position: relative;
+    margin-left: 40px;
+    top: 5px;
+}
+
+#logo {
+    text-transform: uppercase;
+    color: #5CB8E4;
+    font-weight: 900;
+    font-size: 30px;
+    letter-spacing: -2px;
+    cursor: pointer;
+
+}
+
+.nav-elements {
+    margin-left: 20px;
+    text-transform: capitalize;
+    font-weight: 800px;
+    cursor: pointer;
+}
+
+main {
+    margin: 16px;
+    text-align: center;
+    padding: 2% 8%;
+}
+
+h2 {
+    text-transform: capitalize;
+    margin-bottom: 35px;
+}
+
+.main-img {
+    width: 100%;
+}
+
+.about-denmark {
+    padding-bottom: 35px;
+    line-height: 1.3;
+    word-spacing: 4px;
+    text-align: justify;
+    margin: 0 5%;
+}
+
+section {
+    display: inline-block;
+    width: 60%;
+    margin-right: 24px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px #aaa;
+}
+
+aside {
+    display: inline-block;
+    width: 25%;
+    vertical-align: top;
+    background-color: white;
+    padding: 16px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px #aaa ;
+}
+
+.place-wrapper {
+    width: 100%;
+    border-bottom: 1px solid #aaa;
+    margin-bottom: 16px;
+}
+
+.place-wrapper:last-of-type {
+    border-bottom: 0;
+    margin-bottom: 0;
+}
+
+.place-wrapper > img {
+    width: 100%;
+}
+
+.place-wrapper p {
+    font-size: 18px;
+}
+
+@media screen and (max-width:768px) {
+    main {
+        padding: 2%;
+    }
+
+    #topbar {
+        height: 75px;
+        text-align: center;
+    }
+
+    #logo {
+        display: block;
+        margin-right: 0px;
+    }
+
+    .nav-elements {
+        display: inline-block;
+        font-size: 18px;
+        margin-top: 12px;
+    }
+
+    .nav-elements:last-of-type {
+        margin-right: 0;
+    }
+
+    h2 {
+        font-size: 15px;
+    }
+
+    .about-denmark, .place-wrapper > p {
+        font-size: 10px;
+    }
+
+    section {
+        display: block;
+        width: 100%;
+    }
+
+    aside{
+        display: block;
+        width: 100%;
+    }
+}
