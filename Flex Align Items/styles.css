@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+}
+
+#container {
+    width: 100vw;
+    height: 700px;
+    background-color: lightblue;
+    box-sizing: border-box;
+    padding: 32px;
+    display: flex;
+    /* For Rows */
+    /* flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center; */
+
+    /* For Column */
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.item {
+    background-color: lightcoral;
+    margin-right: 16px;
+    margin-bottom: 16px;
+    padding: 32px;
+    font-size: 24px;
+    text-align: center;
+}
