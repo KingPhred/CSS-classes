@@ -1,0 +1,128 @@
+body {
+    margin: 0;
+    background-color: #EEF1FF;
+    font-family: 'Raleway', sans-serif;
+}
+
+#topbar {
+    background-color: white;
+    width: 100%;
+    padding: 5px 15px;
+    border-bottom: 1px solid #ccc;
+    position: sticky;
+    top: 0;
+}
+
+#navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+#logo {
+    text-transform: uppercase;
+    letter-spacing: -2px;
+    font-weight: 900;
+    color: #0086ff;
+    font-size: 32px;
+    margin-right: 16px;
+}
+
+#left-menu {
+    display: flex;
+    align-items: center;
+}
+
+#right-menu {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.menu-item {
+    font-weight: 600;
+    margin-right: 16px;
+    text-transform: capitalize;
+}
+
+#search-box {
+    padding: .5rem 5rem;
+    border: 1px solid #E0DECA;
+    outline: none;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.material-symbols-outlined {
+    position: relative;
+    top: 3px;
+    right: 2rem;
+    cursor: pointer;
+}
+
+.profile-img {
+    width: 70px;
+    border-radius: 50%;
+}
+
+.notification-bell {
+    width: 30px;
+    height: 30px;
+}
+
+main {
+    padding: 4% 0;
+    max-width: 1200px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.blog-card {
+    width: 23%;
+    min-width: 200px;
+    margin-bottom: 20px;
+    vertical-align: top;
+    height: auto;
+    margin-right: 1%;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px #aaa;
+    cursor: pointer;
+}
+
+.blog-card:hover {
+    box-shadow: 0 5px 10px #aaa;
+}
+
+.blog-card img {
+    width: 100%;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.blog-card h3 {
+    margin: 16px 16px 12px;
+    font-size: 24px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.9);;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.blog-card p {
+    margin: 12px 16px 16px;
+    font-style: 'Raleway', sans-serif;
+    color: rgba(0, 0, 0, 0.8);
+    font-size: 16px;
+    /* word-break: break-all; */
+    word-wrap: break-word;
+}
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
